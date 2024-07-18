@@ -1,0 +1,14 @@
+{
+  "name": "css-expertise",
+  "version": "1.0.0",
+  "description": "It is to practice css completely with advanced concepts",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass scss/main.scss main.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
